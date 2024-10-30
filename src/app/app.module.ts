@@ -16,6 +16,9 @@ import { ClientesComponent } from './modulos/clientes/clientes.component';
 import { TicketsComponent } from './modulos/tickets/tickets.component';
 import { UsuariosComponent } from './modulos/usuarios/usuarios.component';
 import { FormsModule } from '@angular/forms';
+import { LoginComponent } from './modulos/login/login.component';
+import { NoEncontroComponent } from './modulos/no-encontro/no-encontro.component';
+import { InsertarticketComponent } from './modulos/insertarticket/insertarticket.component';
 
 @NgModule({
   declarations: [
@@ -30,7 +33,10 @@ import { FormsModule } from '@angular/forms';
     ProductosComponent,
     ClientesComponent,
     TicketsComponent,
-    UsuariosComponent
+    UsuariosComponent,
+    LoginComponent,
+    NoEncontroComponent,
+    InsertarticketComponent,
   ],
   imports: [
     BrowserModule,

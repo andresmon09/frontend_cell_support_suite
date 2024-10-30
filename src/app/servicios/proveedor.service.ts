@@ -4,9 +4,9 @@ import { Injectable } from '@angular/core';
 @Injectable({
   providedIn: 'root'
 })
-export class ProductosService {
+export class ProveedorService {
 
-  url = 'http://localhost/cell_support_suite/backend/controlador/productos.php';
+  url = 'http://localhost/cell_support_suite/backend/controlador/proveedor.php';
 
   constructor(private http: HttpClient) { }
 
@@ -29,6 +29,5 @@ export class ProductosService {
   filtro(dato:any){
     return this.http.get(`${this.url}?control=filtro&dato=${dato}`);
   }
-  
 
 }

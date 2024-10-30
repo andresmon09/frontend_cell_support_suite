@@ -1,0 +1,23 @@
+.nombre-cliente {
+    font-size: 1.2em;             
+    font-weight: 600;             
+    color: #13919a;               
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.2); 
+    transition: color 0.3s ease, transform 0.3s ease; 
+  }
+  
+  .nombre-cliente:hover {
+    color: #1c5d99;           
+    transform: scale(1.05);       
+  }
+  
+  .btn-primary {
+    background-color: #1acef3; 
+    border-color: #38b3ff;
+  }
+  
+  .btn-secondary {
+    background-color: #fe3a3a; 
+    border-color: #f51d1d;
+  }
+  

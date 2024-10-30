@@ -1,0 +1,66 @@
+#verproductos {
+    background-color: #ffffff; 
+    position: absolute;
+    padding: 2rem; 
+    width: 40%;
+    top: 20%;
+    left: 30%;
+    z-index: 100;
+    border-radius: 15px; 
+    box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.2); 
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    border: 1px solid #e0e0e0; 
+}
+
+#verproductos:hover {
+    transform: scale(1.02); 
+    box-shadow: 0px 12px 20px rgba(0, 0, 0, 0.3);
+}
+
+#verproductos .table {
+    width: 100%;
+    margin: 0; 
+    color: #333;
+}
+
+#verproductos th {
+    color: #41bfd2;
+    font-weight: bold;
+    border-bottom: 2px solid #e0e0e0;
+}
+
+#verproductos td {
+    padding: 10px;
+    text-align: left;
+}
+
+#verproductos input[type="button"] {
+    margin-top: 15px;
+    background-color: #41bfd2;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    padding: 10px 15px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+#verproductos input[type="button"]:hover {
+    background-color: #41bfd2; 
+}
+
+.custom-btn {
+    color: #fff; 
+    background-color: #41bfd2; 
+    border-color: #41bfd2;
+}
+
+.custom-btn:hover {
+    background-color: #41bfd2; 
+    border-color: #41bfd2;
+}
+.custom-insert-btn {
+        background-color: #41bfd2; 
+        color: white;
+        border: none;
+    }

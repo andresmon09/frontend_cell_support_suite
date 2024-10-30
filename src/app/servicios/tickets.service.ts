@@ -4,21 +4,26 @@ import { Injectable } from '@angular/core';
 @Injectable({
   providedIn: 'root'
 })
-export class ProductosService {
+export class TicketsService {
 
-  url = 'http://localhost/cell_support_suite/backend/controlador/productos.php';
+  url = 'http://localhost/cell_support_suite/backend/controlador/tickets.php';
 
   constructor(private http: HttpClient) { }
 
   consultar() {
     return this.http.get(`${this.url}?control=consulta`);
-}
-  
+  }
+
+  consultarp(id:number) {
+    return this.http.get(`${this.url}?control=productos&id=${id}`);
+  }
+ 
   eliminar(id:number){
     return this.http.get(`${this.url}?control=eliminar&id=${id}`);
   }
 
   insertar(params:any){
+    console.log(params);
     return this.http.post(`${this.url}?control=insertar` , JSON.stringify(params));
   }
 
@@ -29,6 +34,5 @@ export class ProductosService {
   filtro(dato:any){
     return this.http.get(`${this.url}?control=filtro&dato=${dato}`);
   }
-  
 
 }
