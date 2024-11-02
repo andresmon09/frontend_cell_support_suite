@@ -1,14 +1,8 @@
-<aside class="main-sidebar sidebar-dark-primary elevation-4 custom-sidebar" [class.collapsed]="isCollapsed">
+<aside class="main-sidebar sidebar-dark-primary elevation-4 custom-sidebar">
   <!-- Brand Logo -->
-  <a href="#" class="brand-link d-flex align-items-center justify-content-between">
-    <div>
-      <img src="../../../assets/dist/img/logoload.png" alt="AdminLTE Logo" class="brand-image img-circle elevation-3" style="opacity: .8">
-      <span class="brand-text font-weight-light">CELL SUPPORT SUITE</span>
-    </div>
-    <!-- Toggle Button for Menu Collapse -->
-    <button class="btn btn-toggle-menu" (click)="toggleMenu()">
-      <i class="fas" [ngClass]="{'fa-bars': isCollapsed, 'fa-times': !isCollapsed}"></i>
-    </button>
+  <a href="#" class="brand-link">
+    <img src="../../../assets/dist/img/logoload.png" alt="AdminLTE Logo" class="brand-image img-circle elevation-3" style="opacity: .8">
+    <span class="brand-text font-weight-light">CELL SUPPORT SUITE</span>
   </a>
 
   <!-- Sidebar -->
@@ -26,7 +20,7 @@
         <li class="nav-item">
           <a [routerLink]="['/dashboard']" class="nav-link">
             <i class="nav-icon fas fa-chart-line"></i>
-            <p>Dashboard</p>
+            <p>Dashboard <span class="right badge badge-danger">New</span></p>
           </a>
         </li>
         <li class="nav-item">

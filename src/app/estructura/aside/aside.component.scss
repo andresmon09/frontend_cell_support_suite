@@ -1,27 +1,24 @@
 .custom-sidebar {
     background-color: #088ca6; 
   }
-  .brand-link {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    padding-right: 10px;
-  }
-  
   .btn-toggle-menu {
+    width: 100%;
+    padding: 10px;
+    text-align: left;
     background: none;
     border: none;
     color: #fff;
     font-size: 1.25rem;
-    padding: 0;
-    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: start;
   
     &:hover {
-      color: rgba(255, 255, 255, 0.7);
+      background-color: rgba(255, 255, 255, 0.1);
     }
-  }
   
-  .brand-image {
-    margin-right: 10px;
+    i {
+      margin-right: 8px;
+    }
   }
   
