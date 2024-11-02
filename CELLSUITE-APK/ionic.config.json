@@ -1,0 +1,7 @@
+{
+  "name": "CELLSUITE-APK",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}

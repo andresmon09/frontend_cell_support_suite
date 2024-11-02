@@ -6,7 +6,7 @@ import { Injectable } from '@angular/core';
 })
 export class CategoriasService {
 
-  url = 'http://localhost/cell_support_suite/backend/controlador/categorias.php';
+  url = 'https://cellsuite.website/backend/controlador/categorias.php';
 
   constructor(private http: HttpClient) { }
 

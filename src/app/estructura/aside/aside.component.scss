@@ -1,4 +1,27 @@
 .custom-sidebar {
     background-color: #088ca6; 
   }
+  .brand-link {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-right: 10px;
+  }
+  
+  .btn-toggle-menu {
+    background: none;
+    border: none;
+    color: #fff;
+    font-size: 1.25rem;
+    padding: 0;
+    cursor: pointer;
+  
+    &:hover {
+      color: rgba(255, 255, 255, 0.7);
+    }
+  }
+  
+  .brand-image {
+    margin-right: 10px;
+  }
   

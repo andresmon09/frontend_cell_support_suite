@@ -6,7 +6,7 @@ import { Injectable } from '@angular/core';
 })
 export class TicketsService {
 
-  url = 'http://localhost/cell_support_suite/backend/controlador/tickets.php';
+  url = 'https://cellsuite.website/backend/controlador/tickets.php';
 
   constructor(private http: HttpClient) { }
 
